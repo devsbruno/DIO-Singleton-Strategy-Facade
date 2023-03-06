@@ -1,18 +1,5 @@
-## Getting Started
+Este é um exemplo simples de como utilizar os padrões de projeto Singleton, Strategy e Facade juntos em uma solução utilizando o Spring Framework.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+O padrão Singleton é utilizado na classe "BancoDeDados" para garantir que haja apenas uma instância do banco de dados em execução. O padrão Strategy é utilizado para encapsular diferentes comportamentos em diferentes estratégias implementadas pelas classes "Estrategia1" e "Estrategia2", e o padrão Facade é utilizado para fornecer uma interface simplificada para acesso ao banco de dados e ao uso do processador de estratégias.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+O código fonte completo pode ser encontrado neste repositório.
